@@ -1,0 +1,212 @@
+!SESSION 2017-09-12 15:25:27.934 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/ojh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/ojh/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2017-09-12 15:26:37.543
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-09-12 15:26:37.543
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7fd3fd06,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@54ae1240,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2017-09-12 15:34:14.722
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2017-09-12 15:34:14.722
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.722
+!MESSAGE "Git integration for Eclipse - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.722
+!MESSAGE "Java implementation of Git - Command Line Interface - Source Code" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.722
+!MESSAGE "Java implementation of Git - Source Code" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.722
+!MESSAGE "Git integration for Eclipse - Gitflow support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.722
+!MESSAGE "Java implementation of Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.722
+!MESSAGE "Java implementation of Git - Command Line Interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.722
+!MESSAGE "Git integration for Eclipse - auto-import for Eclipse >= 4.6" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.722
+!MESSAGE "Java implementation of Git - optional Http support using Apache httpclient" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.722
+!MESSAGE "Java implementation of Git - optional LFS support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.722
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.723
+!MESSAGE "Git integration for Eclipse - Source Code" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2017-09-12 15:34:14.723
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-12 15:34:14.723
+!MESSAGE Software being installed: Java implementation of Git - Command Line Interface 4.8.0.201706111038-r (org.eclipse.jgit.pgm.feature.group 4.8.0.201706111038-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-12 15:34:14.723
+!MESSAGE Missing requirement: JGit Command Line Interface 4.8.0.201706111038-r (org.eclipse.jgit.pgm 4.8.0.201706111038-r) requires 'package org.eclipse.jetty.continuation [9.4.5,10.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-12 15:34:14.723
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-12 15:34:14.723
+!MESSAGE From: Java implementation of Git - Command Line Interface 4.8.0.201706111038-r (org.eclipse.jgit.pgm.feature.group 4.8.0.201706111038-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-12 15:34:14.723
+!MESSAGE To: org.eclipse.jgit.pgm [4.8.0.201706111038-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2017-09-12 15:34:14.781
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2017-09-12 15:34:14.781
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.781
+!MESSAGE "Git integration for Eclipse - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.781
+!MESSAGE "Java implementation of Git - Command Line Interface - Source Code" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.781
+!MESSAGE "Java implementation of Git - Source Code" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.781
+!MESSAGE "Git integration for Eclipse - Gitflow support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.781
+!MESSAGE "Java implementation of Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.781
+!MESSAGE "Java implementation of Git - Command Line Interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.781
+!MESSAGE "Git integration for Eclipse - auto-import for Eclipse >= 4.6" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.781
+!MESSAGE "Java implementation of Git - optional Http support using Apache httpclient" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.781
+!MESSAGE "Java implementation of Git - optional LFS support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.781
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.781
+!MESSAGE "Git integration for Eclipse - Source Code" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2017-09-12 15:34:14.781
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-12 15:34:14.781
+!MESSAGE Software being installed: Java implementation of Git - Command Line Interface 4.8.0.201706111038-r (org.eclipse.jgit.pgm.feature.group 4.8.0.201706111038-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-12 15:34:14.781
+!MESSAGE Missing requirement: JGit Command Line Interface 4.8.0.201706111038-r (org.eclipse.jgit.pgm 4.8.0.201706111038-r) requires 'package org.eclipse.jetty.continuation [9.4.5,10.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-12 15:34:14.781
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-12 15:34:14.781
+!MESSAGE From: Java implementation of Git - Command Line Interface 4.8.0.201706111038-r (org.eclipse.jgit.pgm.feature.group 4.8.0.201706111038-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-12 15:34:14.781
+!MESSAGE To: org.eclipse.jgit.pgm [4.8.0.201706111038-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2017-09-12 15:34:14.798
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2017-09-12 15:34:14.798
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.798
+!MESSAGE "Git integration for Eclipse - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.798
+!MESSAGE "Java implementation of Git - Command Line Interface - Source Code" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.798
+!MESSAGE "Java implementation of Git - Source Code" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.798
+!MESSAGE "Git integration for Eclipse - Gitflow support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.798
+!MESSAGE "Java implementation of Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.798
+!MESSAGE "Java implementation of Git - Command Line Interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.798
+!MESSAGE "Git integration for Eclipse - auto-import for Eclipse >= 4.6" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.798
+!MESSAGE "Java implementation of Git - optional Http support using Apache httpclient" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.798
+!MESSAGE "Java implementation of Git - optional LFS support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.798
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.798
+!MESSAGE "Git integration for Eclipse - Source Code" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2017-09-12 15:34:14.798
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-12 15:34:14.798
+!MESSAGE Software being installed: Java implementation of Git - Command Line Interface 4.8.0.201706111038-r (org.eclipse.jgit.pgm.feature.group 4.8.0.201706111038-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-12 15:34:14.798
+!MESSAGE Missing requirement: JGit Command Line Interface 4.8.0.201706111038-r (org.eclipse.jgit.pgm 4.8.0.201706111038-r) requires 'package org.eclipse.jetty.continuation [9.4.5,10.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-12 15:34:14.798
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-12 15:34:14.798
+!MESSAGE From: Java implementation of Git - Command Line Interface 4.8.0.201706111038-r (org.eclipse.jgit.pgm.feature.group 4.8.0.201706111038-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-12 15:34:14.798
+!MESSAGE To: org.eclipse.jgit.pgm [4.8.0.201706111038-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2017-09-12 15:34:14.799
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2017-09-12 15:34:14.799
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.799
+!MESSAGE "Git integration for Eclipse - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.799
+!MESSAGE "Java implementation of Git - Command Line Interface - Source Code" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.799
+!MESSAGE "Java implementation of Git - Source Code" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.799
+!MESSAGE "Git integration for Eclipse - Gitflow support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.799
+!MESSAGE "Java implementation of Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.799
+!MESSAGE "Java implementation of Git - Command Line Interface" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.799
+!MESSAGE "Git integration for Eclipse - auto-import for Eclipse >= 4.6" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.799
+!MESSAGE "Java implementation of Git - optional Http support using Apache httpclient" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.799
+!MESSAGE "Java implementation of Git - optional LFS support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.799
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-09-12 15:34:14.799
+!MESSAGE "Git integration for Eclipse - Source Code" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2017-09-12 15:34:14.799
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-12 15:34:14.799
+!MESSAGE Software being installed: Java implementation of Git - Command Line Interface 4.8.0.201706111038-r (org.eclipse.jgit.pgm.feature.group 4.8.0.201706111038-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-09-12 15:34:14.799
+!MESSAGE Missing requirement: JGit Command Line Interface 4.8.0.201706111038-r (org.eclipse.jgit.pgm 4.8.0.201706111038-r) requires 'package org.eclipse.jetty.continuation [9.4.5,10.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-09-12 15:34:14.799
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-12 15:34:14.799
+!MESSAGE From: Java implementation of Git - Command Line Interface 4.8.0.201706111038-r (org.eclipse.jgit.pgm.feature.group 4.8.0.201706111038-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-09-12 15:34:14.799
+!MESSAGE To: org.eclipse.jgit.pgm [4.8.0.201706111038-r]
+!SESSION 2017-09-12 15:35:12.632 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/ojh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/Users/ojh/Documents/comp30500/assignments/ -product org.eclipse.epp.package.java.product -keyring /Users/ojh/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2017-09-12 15:35:21.355
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-09-12 15:35:21.356
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@50ecef36,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@767d9b9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
